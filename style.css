@@ -1,0 +1,37 @@
+.colorselector {
+    background-color: #F6F9FC;
+    box-shadow: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+    padding: 5rem;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    margin: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input[type="color"] {
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+}
+
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
